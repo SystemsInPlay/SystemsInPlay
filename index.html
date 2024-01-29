@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>3 Column Layout</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Short+Stack&display=swap');
+
+        body {
+            font-family: 'Short Stack', cursive;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#ffd356">
+</head>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        --primary-color: #331637;
+        --secondary-color: #917D3E;
+        --accent-color: #ffd356;
+        --grid-lines: #402B46;
+        background-color: var(--primary-color);
+        color: var(--accent-color);
+        background-size: 24px 24px;
+        background-image: linear-gradient(to right, var(--grid-lines) 1px, transparent 3px),
+        linear-gradient(to bottom, var(--grid-lines) 3px, transparent 1px);
+        font-family: "Short Stack", sans-serif;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: auto 400px auto;
+        height: 100vh;
+        margin-bottom: 15px;
+    }
+
+    .side {
+        background-size: cover;
+        background-position: center;
+    }
+
+    .left {
+        background-image: url("left.png");
+    }
+
+    .right {
+        background-image: url("right.png");
+    }
+
+    .mid {
+        display: grid;
+        justify-content: center;
+        align-items: start;
+        grid-template-rows: 350px auto;
+        gap: 20px;
+    }
+
+    #logo {
+        width: 350px;
+        display: block;
+    }
+
+    #cover {
+        width: 350px;
+        display: none;
+    }
+
+    #bottom {
+        max-width: 350px;
+        display: grid;
+        width: 100%;
+        align-content: center;
+        justify-items: center;
+        gap: 15px;
+    }
+
+    article {
+        border: 2px solid var(--accent-color);
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    p {
+        margin: 0;
+        font-weight: normal;
+    }
+
+    nav {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 10px;
+    }
+
+    a {
+        border: 2px dotted var(--accent-color);
+        border-radius: 5px;
+        display: grid;
+        width: 100px;
+        height: 25px;
+        place-items: center;
+    }
+    a:hover {
+        background-color: var(--accent-color);
+        color: var(--primary-color);
+        border: 2px dotted var(--primary-color);
+    }
+    @media (max-width: 768px) {
+        .container {
+            grid-template-columns: auto;
+        }
+        .side {
+            display: none
+        }
+        #logo {
+            display: none;
+        }
+        #cover {
+            display: block;
+        }
+    }
+</style>
+<body>
+<div class="container">
+    <aside class="side left"></aside>
+    <div class="mid">
+        <header id="top">
+            <img id="logo" src="sipLogo.png" alt="System In Play podcast cover art">
+            <img id="cover" src="sipTrans.png" alt="System In Play podcast cover art">
+        </header>
+
+        <main id="bottom">
+            <article>
+                <b>Systems In Play</b> is a podcast hosted by Cj and Sam that discusses a variety of games through the
+                lens of
+                game
+                design
+                and programming.
+            </article>
+            <p>You can listen to our podcast on most podcatchers, see links below:</p>
+            <nav>
+                <a>Podcasts</a>
+                <a>Spotify</a>
+                <a>Overcast</a>
+            </nav>
+            <p>You can also find us on the following social media platforms:</p>
+            <nav>
+                <a>TikTok</a>
+                <a>YouTube</a>
+                <a>Discord</a>
+            </nav>
+            <p>Finally, you can optionally support us on patreon or reach out via email, if that's more your speed.</p>
+            <nav>
+                <a>patreon</a>
+                <a>email</a>
+            </nav>
+        </main>
+    </div>
+    <aside class="side right"></aside>
+</div>
+</body>
+</html>
