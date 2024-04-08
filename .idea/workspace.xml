@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d2f5bf81-3f66-4c60-97c7-df11c48bc4cf" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/public/SystemsInPlay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/sipLogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/sipTrans.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/wips/gameboy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/wips/newStyles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/wips/scripts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/wips/styles.css" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2beR2J2z6ZIetDlycFodnecAKIV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/sampenwell/Projects/SIP/SystemsInPlay&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d2f5bf81-3f66-4c60-97c7-df11c48bc4cf" name="Changes" comment="" />
+      <created>1706573349381</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1706573349381</updated>
+      <workItem from="1706573350414" duration="827000" />
+      <workItem from="1707315015470" duration="758000" />
+      <workItem from="1707489112262" duration="598000" />
+      <workItem from="1707923955900" duration="569000" />
+      <workItem from="1708018309397" duration="597000" />
+      <workItem from="1708102998235" duration="598000" />
+      <workItem from="1708352995354" duration="1000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -1,8 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" sizes="16x16" href="/icons/favicon-16x16.png">
+    <link rel="icon" sizes="32x32" href="/icons/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+    <link rel="icon" sizes="192x192" href="/icons/android-chrome-192x192.png">
+    <link rel="icon" sizes="512x512" href="/icons/android-chrome-512x512.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
-    <title>3 Column Layout</title>
+    <title>Systems In Play Podcast</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Short+Stack&display=swap');
 
@@ -79,13 +85,22 @@
 
     article {
         border: 2px solid var(--accent-color);
-        padding: 5px;
+        padding: 10px;
         border-radius: 5px;
+        text-align: justify;
+    }
+
+    h3 {
+        text-align: center;
+        margin-bottom: 2px;
+        font-size: larger;
+
     }
 
     p {
         margin: 0;
         font-weight: normal;
+        text-align: center;
     }
 
     nav {
@@ -93,14 +108,22 @@
         grid-template-columns: auto auto auto;
         gap: 10px;
     }
+    nav a {
 
-    a {
-        border: 2px dotted var(--accent-color);
-        border-radius: 5px;
         display: grid;
         width: 100px;
         height: 25px;
         place-items: center;
+        border: 2px dotted var(--accent-color);
+        border-radius: 5px;
+    }
+
+    a {
+        border-bottom: 2px dotted var(--accent-color);
+
+        font-family: "Short Stack", sans-serif;
+        color: var(--accent-color);
+        text-decoration: none;
     }
     a:hover {
         background-color: var(--accent-color);
@@ -133,29 +156,26 @@
 
         <main id="bottom">
             <article>
-                <b>Systems In Play</b> is a podcast hosted by Cj and Sam that discusses a variety of games through the
-                lens of
-                game
-                design
-                and programming.
+                <h3>Welcome to Systems in Play!</h3><br>This is a video game podcast where new game devs Sam and Cj discuss games and their mechanics that inspire us. Join us every two weeks for a new discussion topic as well as some chatting about the games we've been playing, new releases, and our current projects.<br>Our theme song was written by Cj, and our cover art was drawn by Sam.
             </article>
-            <p>You can listen to our podcast on most podcatchers, see links below:</p>
+            <p>For any questions, please contact us by sending an email to <a href="mailto:systemsinplaypod@gmail.com">systemsinplaypod@gmail.com</a>.<br></br>We'd love it if you checked out our show!</p>
             <nav>
-                <a>Podcasts</a>
-                <a>Spotify</a>
-                <a>Overcast</a>
+                <a href="https://open.spotify.com/show/3rkhh6175RSaO1jO1GkkCg?si=8465bf7bac334666">Spotify</a>
+                <a href="https://www.youtube.com/@SystemsInPlayPod">YouTube</a>
+                <a href="https://feeds.libsyn.com/486780/rss">RSS</a>
+                <!--                <a href="mailto:systemsinplaypod@gmail.com">Email</a>-->
             </nav>
-            <p>You can also find us on the following social media platforms:</p>
-            <nav>
-                <a>TikTok</a>
-                <a>YouTube</a>
-                <a>Discord</a>
-            </nav>
-            <p>Finally, you can optionally support us on patreon or reach out via email, if that's more your speed.</p>
-            <nav>
-                <a>patreon</a>
-                <a>email</a>
-            </nav>
+<!--            <p>You can also find us on the following social media platforms:</p>-->
+<!--            <nav>-->
+<!--                <a>TikTok</a>-->
+
+<!--                <a>Discord</a>-->
+<!--            </nav>-->
+<!--            <p>Finally, you can optionally support us on patreon or reach out via email, if that's more your speed.</p>-->
+<!--            <nav>-->
+<!--                <a>patreon</a>-->
+<!--                <a>email</a>-->
+<!--            </nav>-->
         </main>
     </div>
     <aside class="side right"></aside>
