@@ -105,10 +105,11 @@
 
     nav {
         display: grid;
-        grid-template-columns: auto auto auto;
+        grid-template-columns: auto auto auto auto;
         gap: 10px;
         margin-bottom: 25px;
     }
+
     nav a {
 
         display: grid;
@@ -127,21 +128,26 @@
         color: var(--accent-color);
         text-decoration: none;
     }
+
     a:hover {
         background-color: var(--accent-color);
         color: var(--primary-color);
         border: 2px dotted var(--primary-color);
     }
+
     @media (max-width: 768px) {
         .container {
             grid-template-columns: auto;
         }
+
         .side {
             display: none
         }
+
         #logo {
             display: none;
         }
+
         #cover {
             display: block;
         }
@@ -158,28 +164,37 @@
 
         <main id="bottom">
             <article>
-                <h3>Welcome to Systems in Play!</h3><br>This is a video game podcast where new game devs Sam and Cj discuss games and their mechanics that inspire us. Join us every two weeks for a new discussion topic as well as some chatting about the games we've been playing, new releases, and our current projects.<br>Our theme song was written by Cj, and our cover art was drawn by Sam.
+                <h3>Welcome to Systems in Play!</h3><br>This is a <b>video game podcast</b> where new game devs Sam and Cj
+                discuss games and their mechanics that inspire us. Join us every two weeks for a new discussion topic as
+                well as some chatting about the games we've been playing, new releases, and our current projects.<br>Our
+                theme song was written by Cj, and our cover art was drawn by Sam.
             </article>
-            <p>For any questions, please contact us by sending an email to <a href="mailto:systemsinplaypod@gmail.com">systemsinplaypod@gmail.com</a>.<br></br>We'd love it if you checked out our show!</p>
+            <p>For any questions, please contact us by sending an email to <a href="mailto:systemsinplaypod@gmail.com">systemsinplaypod@gmail.com</a>.<br></br>We'd
+                love it if you checked out our show!</p>
             <nav>
                 <a href="https://podcasts.apple.com/us/podcast/systems-in-play/id1740419408">Apple</a>
                 <a href="https://open.spotify.com/show/3rkhh6175RSaO1jO1GkkCg?si=8465bf7bac334666">Spotify</a>
-                <a href="https://www.youtube.com/@SystemsInPlayPod">YouTube</a>
-                <a href="https://soundcloud.com/cj-artajo-349470231?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing">Soundcloud</a>
                 <a href="https://feeds.libsyn.com/486780/rss">RSS</a>
-                <a href="https://www.tiktok.com/@systemsinplay?is_from_webapp=1&sender_device=pc">TikTok</a>
-            </nav>
-<!--            <p>You can also find us on the following social media platforms:</p>-->
-<!--            <nav>-->
-<!--                <a>TikTok</a>-->
 
-<!--                <a>Discord</a>-->
-<!--            </nav>-->
-<!--            <p>Finally, you can optionally support us on patreon or reach out via email, if that's more your speed.</p>-->
-<!--            <nav>-->
-<!--                <a>patreon</a>-->
-<!--                <a>email</a>-->
-<!--            </nav>-->
+                <a href="https://www.youtube.com/@SystemsInPlayPod">YouTube</a>
+<!--                                <a href="https://soundcloud.com/cj-artajo-349470231?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing">Soundcloud</a>-->
+<!--                <a href="https://www.tiktok.com/@systemsinplay?is_from_webapp=1&sender_device=pc">TikTok</a>-->
+            </nav>
+            <p>We host discussion topics, per-episode threads, and channels to show off your projects on our Discord. Come join the conversation!</p>
+            <nav>
+                <a href="https://discord.gg/8tnRbJjz">Discord</a>
+            </nav>
+            <!--            <p>You can also find us on the following social media platforms:</p>-->
+            <!--            <nav>-->
+            <!--                <a>TikTok</a>-->
+
+            <!--                <a>Discord</a>-->
+            <!--            </nav>-->
+            <!--            <p>Finally, you can optionally support us on patreon or reach out via email, if that's more your speed.</p>-->
+            <!--            <nav>-->
+            <!--                <a>patreon</a>-->
+            <!--                <a>email</a>-->
+            <!--            </nav>-->
         </main>
     </div>
     <aside class="side right"></aside>
